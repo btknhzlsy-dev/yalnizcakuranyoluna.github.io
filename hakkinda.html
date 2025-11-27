@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkında | Yalnızca Kur'an Yoluna</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-emerald-50 font-sans antialiased text-gray-800">
+
+    <header class="bg-white shadow-sm sticky top-0 z-40">
+        <nav class="container mx-auto flex items-center justify-between p-4 gap-4 flex-wrap md:flex-nowrap">
+            <a href="index.html" class="flex items-center gap-3">
+                <svg class="w-8 h-8 text-emerald-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18c-2.305 0-4.408.867-6 2.292m0-14.25v14.25" />
+                </svg>
+                <div>
+                    <p class="text-xs uppercase tracking-wide text-emerald-600 font-semibold">Yalnızca</p>
+                    <p class="text-lg font-bold text-emerald-700 leading-none">Kur'an Yoluna</p>
+                </div>
+            </a>
+            <div class="flex items-center gap-4 text-sm font-semibold text-gray-600">
+                <a href="index.html" class="hover:text-emerald-600 transition-colors">Ana Sayfa</a>
+                <span class="text-emerald-600">Hakkında</span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 py-12">
+
+        <section class="bg-gradient-to-r from-emerald-500 to-green-600 text-white p-10 rounded-2xl shadow-xl mb-12">
+            <p class="text-sm uppercase tracking-[0.3em] text-emerald-100 mb-3">Projenin Amacı</p>
+            <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">Kur'an'ı katman katman okumayı kolaylaştıran dijital bir çalışma masası.</h1>
+            <p class="text-lg text-emerald-50 max-w-3xl">
+                Ayet metinlerini, kelime çözümlemelerini ve sözlüksel anlamları aynı yerde toplayarak derinlikli okumalar yapmanızı sağlar.
+                Arama sistemleri sayesinde tek satırlık bir sorgu ile çevirilere, köklere veya doğrudan ayet numarasına ulaşabilirsiniz.
+            </p>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <div class="bg-white rounded-xl shadow p-6 border border-emerald-50">
+                <p class="text-sm font-semibold text-emerald-600 uppercase tracking-wide mb-2">Katmanlı İçerik</p>
+                <p class="text-3xl font-bold text-gray-900 mb-2">4+</p>
+                <p class="text-gray-600">Ayet kartlarında Arapça metin, latin okunuş, çeviri ve kelime-kök analizleri birlikte görüntülenir.</p>
+            </div>
+            <div class="bg-white rounded-xl shadow p-6 border border-emerald-50">
+                <p class="text-sm font-semibold text-emerald-600 uppercase tracking-wide mb-2">Akıllı Arama</p>
+                <p class="text-3xl font-bold text-gray-900 mb-2">3 Mod</p>
+                <p class="text-gray-600">Çeviri, #kök ve Arapça kelime araması aynı kutuda; yeni eklenen “ayet formatı” sayesinde doğrudan 20:3 gibi referanslar açılır.</p>
+            </div>
+            <div class="bg-white rounded-xl shadow p-6 border border-emerald-50">
+                <p class="text-sm font-semibold text-emerald-600 uppercase tracking-wide mb-2">Referans Noktası</p>
+                <p class="text-3xl font-bold text-gray-900 mb-2">114</p>
+                <p class="text-gray-600">Sure listesini kart yapısıyla gezebilir, her birini modal navigasyonu ile ardışık okumaya çevirebilirsiniz.</p>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-2xl shadow-lg p-8 md:p-12 mb-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div>
+                    <p class="text-sm font-semibold text-emerald-600 uppercase tracking-wide mb-3">Yaklaşım</p>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">Dil verisini kullanıcıya göre şekillendiren arayüz</h2>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Ekranda gördüğünüz her kelime bir sözlük girişine bağlı. Ayet modalındaki tablo sırasıyla kelimeyi,
+                        kökünü ve anlam notunu gösterirken, tıkladığınızda aynı veri sözlükten açılıyor.
+                        Bu sayede harf düzeyinden anlam düzeyine kadar geçiş yapmak sadece tek tık sürüyor.
+                    </p>
+                    <div class="grid grid-cols-1 gap-4">
+                        <div class="flex items-start gap-3">
+                            <div class="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 font-semibold">1</div>
+                            <div>
+                                <p class="font-semibold text-gray-800">Ayetleri keşfedin</p>
+                                <p class="text-sm text-gray-600">Kart düzeniyle sureleri gezerek istediğiniz ayeti modalda açın.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 font-semibold">2</div>
+                            <div>
+                                <p class="font-semibold text-gray-800">Kelime ve kökleri inceleyin</p>
+                                <p class="text-sm text-gray-600">Tabloda yer alan her kelime sözlük ile bağlantılıdır.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 font-semibold">3</div>
+                            <div>
+                                <p class="font-semibold text-gray-800">Arama ile hızlanın</p>
+                                <p class="text-sm text-gray-600">Çeviri, Arapça, kök ve artık ayet referanslarını tek kutuda arayın.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-emerald-50 border border-emerald-100 rounded-2xl p-6 flex flex-col justify-between">
+                    <div>
+                        <p class="text-sm font-semibold text-emerald-600 uppercase tracking-wide mb-2">Kullanım Senaryoları</p>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Ayet odaklı çalışma rutininize uyar</h3>
+                        <ul class="space-y-4 text-gray-700">
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1 w-2 h-2 bg-emerald-500 rounded-full"></span>
+                                Sözlük araştırmaları için kelimeyi seçip açıklamasını modalda açın.
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1 w-2 h-2 bg-emerald-500 rounded-full"></span>
+                                Çevirileri karşılaştırarak ayete dair farklı perspektifleri görün.
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1 w-2 h-2 bg-emerald-500 rounded-full"></span>
+                                Yeni ayet arama formatı ile derslerde referans verirken zamandan kazanın.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-8">
+                        <a href="index.html" class="inline-flex items-center px-5 py-3 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-colors shadow">
+                            Ana sayfaya dön
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center">
+            <p class="text-sm uppercase tracking-[0.4em] text-emerald-500 mb-4">İletişim</p>
+            <h3 class="text-2xl font-bold text-gray-900 mb-3">Yeni özellik önerileriniz mi var?</h3>
+            <p class="text-gray-600 max-w-2xl mx-auto mb-6">Arama tipleri, sözlük içerikleri veya arayüzünüzle ilgili ihtiyaçlarınızı paylaşabilirsiniz. Proje gelişirken katkılarınızı değerlendirmek isteriz.</p>
+            <a href="mailto:info@kuranyoluna.com" class="inline-flex items-center px-6 py-3 bg-white border border-emerald-200 text-emerald-700 rounded-lg hover:bg-emerald-50 shadow">
+                info@kuranyoluna.com
+            </a>
+        </section>
+
+    </main>
+</body>
+</html>
+
